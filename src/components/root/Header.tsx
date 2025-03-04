@@ -29,7 +29,7 @@ const Header = () => {
     const [openAgentModal, setOpenAgentModal] = useState(false)
     return (
         <>
-        <div className='w-full flex flex-row items-center justify-between px-5 py-4 sm:px-7 md:px-10 sm:py-6'>
+        <div className='w-full font-robotopro flex flex-row items-center justify-between px-5 py-4 sm:px-7 md:px-10 sm:py-6'>
             <div className='flex flex-row gap-4 sm:gap-7 items-center'>
                 <a href="/">
                     <img src={mainLogo} alt='logo' className='w-[150px] h-[62px]' />

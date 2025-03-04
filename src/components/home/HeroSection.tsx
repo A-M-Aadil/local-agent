@@ -116,7 +116,7 @@ const HeroSection = () => {
 
             <div className='w-full xl:w-1/2 flex flex-col gap-4  items-center'>
                 <div className='flex items-center justify-center w-full lg:w-[490px] border-black border-[10px] rounded-[28px] overflow-hidden'>
-                    <video className="object-fill w-[100%] h-full" autoPlay loop muted>
+                    <video className="object-fill scale-[165%] w-[100%] h-full" autoPlay loop muted>
                         <source src={homeVideo1} type="video/mp4" />
                     </video>
                 </div>

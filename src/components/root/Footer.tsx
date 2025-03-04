@@ -4,7 +4,7 @@ import { agentCompared, agentsCovered, suburbsCovered } from '../../assets/image
 
 const Footer = () => {
     return (
-        <div className='bg-[#10131c] rounded-t-[40px] px-10 py-7 flex flex-col gap-5'>
+        <div className='bg-[#10131c] font-robotopro rounded-t-[40px] px-10 py-7 flex flex-col gap-5'>
             <img src={mainLogo} alt='logo' className='w-[150px] h-[62px]' />
             <hr className='h-[1px] w-full bg-[#5376FF] border-none' />
 

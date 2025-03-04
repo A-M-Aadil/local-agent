@@ -10,17 +10,18 @@
 
 @font-face {
   font-family: 'RoobertPRO';
-  src: url('/src/assets/fonts/RoobertPRO-Regular.ttf') format('ttf'),;
+  src: url('/src/assets/fonts/RoobertPRO-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RoobertPRO';
-  src: url('/src/assets/fonts/RoobertPRO-Bold.ttf') format('ttf'),;
+  src: url('/src/assets/fonts/RoobertPRO-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
+
 
 @theme {
   --font-robotopro: 'RoobertPRO', sans-serif;

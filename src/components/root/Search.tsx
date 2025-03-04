@@ -9,7 +9,7 @@ interface SearchProps {
 }
 const Search = ({ placeholderText, onClick, onChange, buttonText, value }: SearchProps) => {
     return (
-        <div className='w-full flex flex-row bg-white/5 border-white/50 border-[2px] p-1.5 justify-between items-center rounded-l-full rounded-r-full'>
+        <div className='w-full font-robotopro flex flex-row bg-white/5 border-white/50 border-[2px] p-1.5 justify-between items-center rounded-l-full rounded-r-full'>
             <input
                 type='text'
                 placeholder={placeholderText ?? 'Search'}

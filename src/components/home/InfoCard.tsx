@@ -17,7 +17,7 @@ interface InfoCardProps {
 
 const InfoCard = ({ direction, icon, title, description, videoSrc, onSearchChange, searchButtonText, searchPlaceholder, searchValue, onSearchClick }: InfoCardProps) => {
     return (
-        <div className={`w-full flex ${direction === 'RightToLeft' ? 'flex-col lg:flex-row-reverse' : 'flex-col lg:flex-row '} gap-10 lg:gap-20 `}>
+        <div className={`w-full font-robotopro flex ${direction === 'RightToLeft' ? 'flex-col lg:flex-row-reverse' : 'flex-col lg:flex-row '} gap-10 lg:gap-20 `}>
             <div className='w-full lg:w-1/2 flex flex-col gap-4 '>
                 <div className='flex flex-col gap-7 flex-grow'>
                 <div className='w-full flex flex-row gap-3'>
@@ -45,9 +45,10 @@ const InfoCard = ({ direction, icon, title, description, videoSrc, onSearchChang
             </div>
             <div className='w-full lg:w-1/2 flex flex-row justify-center '>
                 <div className='w-full h-auto xl:h-[362px] rounded-[24px] overflow-hidden'>
-                    <video className="object-cover w-[100%] h-full object-center" autoPlay loop muted>
+                    <img src={videoSrc} alt='Video' className='object-cover w-[100%] h-full object-center' />
+                    {/* <video className="object-cover w-[100%] h-full object-center" autoPlay loop muted>
                         <source src={videoSrc} type="video/mp4" />
-                    </video>
+                    </video> */}
                 </div>
             </div>
         </div>

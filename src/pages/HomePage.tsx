@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import HeroSection from '../components/home/HeroSection'
 import InfoCard from '../components/home/InfoCard'
 import { buildingIcon } from '../assets/icons'
-import { homeVideo1 } from '../assets/videos'
+import { image1, image2 } from '../assets/images'
 
 const HomePage = () => {
     const [search, setSearch] = useState({
@@ -19,7 +19,7 @@ const HomePage = () => {
             icon: buildingIcon,
             title: "Residential Property Sales",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula.",
-            videoSrc: homeVideo1,
+            videoSrc: image1,
             onSearchChange: (e: React.ChangeEvent<HTMLInputElement>) => { setSearch({ ...search, search1: e.target.value }) },
             searchButtonText: "Find Agent",
             searchPlaceholder: "Residential Property Sales",
@@ -30,7 +30,7 @@ const HomePage = () => {
             icon: buildingIcon,
             title: "Residential Property Management",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula.",
-            videoSrc: homeVideo1,
+            videoSrc: image2,
             onSearchChange: (e: React.ChangeEvent<HTMLInputElement>) => { setSearch({ ...search, search2: e.target.value }) },
             searchButtonText: "Find Agent",
             searchPlaceholder: "Residential Property Management",
@@ -41,7 +41,7 @@ const HomePage = () => {
             icon: buildingIcon,
             title: "Commercial Property Sales",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula.",
-            videoSrc: homeVideo1,
+            videoSrc: image2,
             onSearchChange: (e: React.ChangeEvent<HTMLInputElement>) => { setSearch({ ...search, search3: e.target.value }) },
             searchButtonText: "Find Agent",
             searchPlaceholder: "Commercial Property Sales",
@@ -52,7 +52,7 @@ const HomePage = () => {
             icon: buildingIcon,
             title: "Commercial Property Management",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula.",
-            videoSrc: homeVideo1,
+            videoSrc: image2,
             onSearchChange: (e: React.ChangeEvent<HTMLInputElement>) => { setSearch({ ...search, search4: e.target.value }) },
             searchButtonText: "Find Agent",
             searchPlaceholder: "Commercial Property Management",
@@ -63,7 +63,7 @@ const HomePage = () => {
             icon: buildingIcon,
             title: "Buyers Agent",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula.",
-            videoSrc: homeVideo1,
+            videoSrc: image2,
             onSearchChange: (e: React.ChangeEvent<HTMLInputElement>) => { setSearch({ ...search, search5: e.target.value }) },
             searchButtonText: "Find Agent",
             searchPlaceholder: "Buyers Agent",
@@ -74,7 +74,7 @@ const HomePage = () => {
             icon: buildingIcon,
             title: "Business  Sales",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula.",
-            videoSrc: homeVideo1,
+            videoSrc: image2,
             onSearchChange: (e: React.ChangeEvent<HTMLInputElement>) => { setSearch({ ...search, search6: e.target.value }) },
             searchButtonText: "Find Agent",
             searchPlaceholder: "Business  Sales",
@@ -85,7 +85,7 @@ const HomePage = () => {
             icon: buildingIcon,
             title: "Rooming",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mattis sem sit amet egestas. Maecenas aliquam ornare diam, sit amet varius risus viverra a. Curabitur mollis enim fringilla, laoreet mauris eu, sodales ipsum. Sed at sem mollis, tincidunt risus ut, pharetra ligula.",
-            videoSrc: homeVideo1,
+            videoSrc: image2,
             onSearchChange: (e: React.ChangeEvent<HTMLInputElement>) => { setSearch({ ...search, search7: e.target.value }) },
             searchButtonText: "Find Agent",
             searchPlaceholder: "Rooming",
